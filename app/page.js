@@ -4,9 +4,9 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center  p-24">
       
-        <h1 class="text-4xl">CPRG 306: Web Development 2 - Assignments</h1>
+        <h1 class="text-4xl mb-5">CPRG 306: Web Development 2 - Assignments</h1>
         <StudentInfo />
         <ul>
           <li><Link href="/week2">week2</Link></li>
@@ -15,6 +15,7 @@ export default function Home() {
           <li><Link href="/week5">week5</Link></li>
           <li><Link href="/week6">week6</Link></li>
           <li><Link href="/week7">week7</Link></li>
+          <li><Link href="/week8">week8</Link></li>
         </ul>        
     </main>
   )
